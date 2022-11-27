@@ -1,11 +1,10 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1381609,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
-patr1/v720p1/index1.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1381601,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
-part2/v720p2/index2.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1381601,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
-part3/v720p3/index3.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1381601,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
-part4/v720p4/index4.m3u8
+#EXTMU3
+EXTINF:-1
+https://raw.githubusercontent.com/drtrailer2022/trailer/main/part1/master.m3u8
+EXTINF:-1
+https://raw.githubusercontent.com/drtrailer2022/trailer/main/part%202/master.m3u8
+EXTINF:-1
+https://raw.githubusercontent.com/drtrailer2022/trailer/main/part%203/master.m3u8
+EXTINF:-1
+https://raw.githubusercontent.com/drtrailer2022/trailer/main/part%204/master.m3u8
 
